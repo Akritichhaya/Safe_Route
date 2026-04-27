@@ -1,6 +1,7 @@
 ﻿# SafeRoute Bengaluru
 
 ## Overview
+Demo Link : https://akritichhaya.github.io/Safe_Route/Saferoute_bengaluru.html
 
 SafeRoute Bengaluru is a browser-based safety webapp designed for women and commuters in Bengaluru. It provides interactive safety information, emergency support, women-only transport options, city partner alerts, and safe route guidance — all in a single static HTML file.
 
