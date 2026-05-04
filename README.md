@@ -1,118 +1,209 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/version-2.0-C2185B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/static-no%20backend-00695C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/license-open%20source-880E4F?style=for-the-badge" />
+<br/>
 
-# 🛡️ SafeRoute Bengaluru
+```
+███████╗ █████╗ ███████╗███████╗██████╗  ██████╗ ██╗   ██╗████████╗███████╗
+██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔═══██╗██║   ██║╚══██╔══╝██╔════╝
+███████╗███████║█████╗  █████╗  ██████╔╝██║   ██║██║   ██║   ██║   █████╗  
+╚════██║██╔══██║██╔══╝  ██╔══╝  ██╔══██╗██║   ██║██║   ██║   ██║   ██╔══╝  
+███████║██║  ██║██║     ███████╗██║  ██║╚██████╔╝╚██████╔╝   ██║   ███████╗
+╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝
+```
 
-**A crowd-sourced women's safety webapp for Namma Bengaluru**
+### 🛡️ *Namma Bengaluru's Women Safety Companion* 🛡️
 
-*Interactive maps · SOS tools · Women-only transport · Smart route planning*
-*— all in a single static HTML file, no login required.*
+<br/>
 
-[🚀 **Live Demo**](https://akritichhaya.github.io/Safe_Route/Saferoute_bengaluru.html) &nbsp;·&nbsp; [⭐ Star on GitHub](https://github.com/akritichhaya/Safe_Route)
+[![Live Demo](https://img.shields.io/badge/🚀%20LIVE%20DEMO-Click%20Here-C2185B?style=for-the-badge&logoColor=white)](https://akritichhaya.github.io/Safe_Route/Saferoute_bengaluru.html)
+[![GitHub](https://img.shields.io/badge/⭐%20GITHUB-Star%20Repo-880E4F?style=for-the-badge)](https://github.com/akritichhaya/Safe_Route)
+
+<br/>
+
+![Version](https://img.shields.io/badge/Version-2.0-C2185B?style=flat-square)
+![Static](https://img.shields.io/badge/Type-Static%20Site-00695C?style=flat-square)
+![No Backend](https://img.shields.io/badge/Backend-None%20Required-00695C?style=flat-square)
+![No Login](https://img.shields.io/badge/Login-Not%20Required-C2185B?style=flat-square)
+![Anonymous](https://img.shields.io/badge/Privacy-100%25%20Anonymous-880E4F?style=flat-square)
+
+<br/>
+
+> *Interactive maps · SOS alerts · Women-only transport · Smart route planning*
+>
+> **All in a single HTML file. No login. No server. No compromise.**
+
+<br/>
 
 ---
 
 </div>
 
-## 📌 Overview
+<br/>
 
-SafeRoute Bengaluru is a browser-based safety tool designed for women and commuters in Bengaluru. It combines real crowd-sourced incident data, WhatsApp-powered alerts, night check-in timers, and women-only transport directories — entirely client-side with no server required.
+## 🌸 What is SafeRoute Bengaluru?
 
----
+SafeRoute Bengaluru is a **browser-based safety webapp** built for women and commuters navigating Bengaluru's streets. It brings together crowd-sourced safety data, instant emergency tools, and smart routing — all running locally in your browser with zero data stored anywhere.
 
-## ✨ Features
+> No account. No tracking. Just safety.
 
-| Feature | Description |
-|---|---|
-| 🗺️ **Live Safety Map** | Interactive map with crowd-sourced hotspot markers at real BLR coordinates. Filter by time of day. |
-| 🚨 **SOS Emergency Modal** | One-tap emergency with helplines, fake call trigger, WhatsApp alerts & live location sharing. |
-| 🌙 **Night Check-In Timer** | Set a countdown — if you don't check in, an automatic SOS is sent to your contacts via WhatsApp. |
-| 🚺 **Women-Only Transport** | Sakhi, Vanitha & more — curated women-only cab services with direct WhatsApp booking links. |
-| 🏛️ **City Partner Alerts** | One-tap official alerts to BBMP, Bengaluru City Police, and BMTC directly from the app. |
-| 🧭 **Safe Route Planner** | Route suggestions avoiding high-risk zones, with WhatsApp sharing and Google Maps integration. |
-| 👍 **Community Reports** | Upvote or submit anonymous incident reports — session-only, nothing stored on any server. |
+<br/>
 
 ---
 
-## 📁 Files
+<br/>
+
+## ✨ Features at a Glance
+
+<br/>
 
 ```
-Safe_Route/
-├── Saferoute_bengaluru.html   # Main app — all HTML, CSS, and JS in one file
-└── README.md                  # Project documentation
+┌─────────────────────────────────────────────────────────────────────┐
+│                    SAFEROUTE FEATURE MAP                            │
+├──────────────────────┬──────────────────────────────────────────────┤
+│  🗺️  SAFETY MAP      │  Real BLR coordinates · Hotspot pins         │
+│                      │  Heatmap overlay · Time-of-day filters        │
+├──────────────────────┼──────────────────────────────────────────────┤
+│  🚨  SOS EMERGENCY   │  Fake call trigger · Helplines directory      │
+│                      │  WhatsApp SOS · Live location share           │
+├──────────────────────┼──────────────────────────────────────────────┤
+│  🌙  NIGHT CHECK-IN  │  Countdown timer · Auto-SOS on timeout        │
+│                      │  WhatsApp alert to saved contacts             │
+├──────────────────────┼──────────────────────────────────────────────┤
+│  🚺  WOMEN'S CABS    │  Sakhi · Vanitha · More                       │
+│                      │  Direct WhatsApp booking links                │
+├──────────────────────┼──────────────────────────────────────────────┤
+│  🏛️  CITY ALERTS     │  BBMP · BCP · BMTC                           │
+│                      │  One-tap official WhatsApp reporting          │
+├──────────────────────┼──────────────────────────────────────────────┤
+│  🧭  SAFE ROUTES     │  High-risk zone avoidance · Metro info        │
+│                      │  WhatsApp sharing · Google Maps link          │
+└──────────────────────┴──────────────────────────────────────────────┘
 ```
 
----
-
-## 🛠️ Tech Stack
-
-- 🍃 **Leaflet.js** — interactive map rendering
-- 💬 **WhatsApp API** — alerts, SOS, route sharing
-- 📍 **Geolocation API** — live location detection
-- 🗺️ **Google Maps** — route navigation
-- 🔤 **Google Fonts** — UI typography
-- 🌐 **No backend** — runs entirely in the browser
+<br/>
 
 ---
 
-## 💻 Local Testing
+<br/>
 
-Open `Saferoute_bengaluru.html` directly in your browser, **or** run a local server:
+## 📁 Project Structure
 
-```powershell
-# Navigate to project folder
-Set-Location -Path 'D:\Safe_Route'
-
-# Start local server
-python -m http.server 8000
+```
+📦 Safe_Route/
+ ┣ 📄 Saferoute_bengaluru.html    ← Main app (HTML + CSS + JS, all-in-one)
+ ┗ 📄 README.md                   ← You're reading this!
 ```
 
-Then open in your browser:
-```
-http://localhost:8000/Saferoute_bengaluru.html
-```
+<br/>
 
 ---
 
-## 🚀 Deployment
+<br/>
 
-This is a fully static site — deploy anywhere with **zero build steps**.
-
-### GitHub Pages
-1. Push project files to a GitHub repository
-2. Go to **Settings → Pages**
-3. Set source to the root branch
-4. Your site will be live at `https://<username>.github.io/<repo>/`
-
-### Netlify / Vercel
-1. Connect your GitHub repository
-2. Deploy from the root folder
-3. No build command required ✅
-
----
-
-## ⚠️ Notes
-
-> **Test Mode:** All helpline numbers are currently set to `9155647042` for safe testing. Update these before any production use.
-
-- 🔒 100% anonymous — no login, no data stored on any server
-- 📵 Session-only reports — nothing persists between browser sessions
-- 📦 Leaflet.js and Google Fonts loaded from CDN
-- 🌐 No backend server required
-
----
-
-## 📜 License
-
-Use and adapt this project freely for safety awareness and testing purposes.
-
----
+## 🛠️ Built With
 
 <div align="center">
 
-Built with 💜 for **Namma Bengaluru**
+| Technology | Purpose |
+|:---:|:---|
+| 🍃 **Leaflet.js** | Interactive map rendering with custom markers |
+| 💬 **WhatsApp API** | SOS alerts, route sharing, city reporting |
+| 📍 **Geolocation API** | Live location detection and sharing |
+| 🗺️ **Google Maps** | Turn-by-turn navigation and route links |
+| 🔤 **Google Fonts** | Beautiful UI typography via CDN |
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## 💻 Run Locally
+
+### ⚡ Option A — Direct Open *(simplest)*
+
+Just double-click `Saferoute_bengaluru.html` and open with your browser.
+
+### 🐍 Option B — Python Server *(recommended)*
+
+```powershell
+# Step 1 — Go to project folder
+Set-Location -Path 'D:\Safe_Route'
+
+# Step 2 — Start server
+python -m http.server 8000
+```
+
+```
+# Step 3 — Open in browser
+http://localhost:8000/Saferoute_bengaluru.html
+```
+
+<br/>
+
+---
+
+<br/>
+
+## 🚀 Deploy in Minutes
+
+<div align="center">
+
+| Platform | Steps | Build Required? |
+|:---:|:---|:---:|
+| 🐙 **GitHub Pages** | Push repo → Settings → Pages → Root branch | ❌ None |
+| ▲ **Netlify** | Connect GitHub repo → Deploy from root | ❌ None |
+| ◆ **Vercel** | Import repo → Deploy from root folder | ❌ None |
+
+</div>
+
+> **Already live at →** https://akritichhaya.github.io/Safe_Route/Saferoute_bengaluru.html
+
+<br/>
+
+---
+
+<br/>
+
+## ⚠️ Important Notes
+
+> [!WARNING]
+> All helpline numbers are currently set to **`9155647042`** for safe testing.
+> Please update these before any real-world or production deployment.
+
+<br/>
+
+- 🔒 **100% Anonymous** — no login, no account, no personal data collected
+- 📵 **Session-only reports** — incident data never leaves your browser
+- 📦 **CDN dependencies** — Leaflet.js & Google Fonts loaded externally
+- 🌐 **No backend** — the entire app runs inside a single HTML file
+
+<br/>
+
+---
+
+<br/>
+
+## 📜 License
+
+This project is free to use, adapt, and share for **safety awareness** and **community testing** purposes.
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+**Made with 💜 for the women of Namma Bengaluru**
+
+*Stay safe. Stay connected. SafeRoute has your back.*
+
+<br/>
+
+![Bengaluru](https://img.shields.io/badge/🌸%20Namma-Bengaluru-C2185B?style=for-the-badge)
 
 </div>
